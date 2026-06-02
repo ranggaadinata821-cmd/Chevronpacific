@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PT Chevron Pacific Indonesia</title>
+
+<meta name="description" content="PT Chevron Pacific Indonesia - Solusi Energi, Minyak, Gas dan Teknologi Industri di Indonesia.">
+<meta name="keywords" content="Chevron, Chevron Indonesia, Minyak, Gas, Energi, Industri, Engineering">
+<meta name="author" content="PT Chevron Pacific Indonesia">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8f9fa;
+    color:#222;
+    line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:1000;
+    background:#ffffff;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    font-weight:700;
+    color:#0057B8;
+}
+
+.logo img{
+    width:80px;
+    height:auto;
+    display:block;
+}
+
+.logo span{
+    color:#0057B8;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#0057B8;
+}
+
+/* HERO */
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.55),
+    rgba(0,0,0,.55)),
+    url('https://images.unsplash.com/photo-1513828583688-c52646db42da?q=80&w=1920');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    color:white;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero h1{
+    font-size:58px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#E31E24;
+    color:white;
+    text-decoration:none
+    border-radius:5px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#c3171d;
+}
+
+/* SECTION */
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    color:#0057B8;
+    font-size:38px;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:10px;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.service{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service:hover{
+    transform:translateY(-8px);
+}
+
+.service h3{
+    color:#0057B8;
+    margin-bottom:10px;
+}
+
+/* STATS */
+
+.stats{
+    background:#0057B8;
+    color:white;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    text-align:center;
+    gap:20px;
+}
+
+.stats h3{
+    font-size:42px;
+}
+
+/* CONTACT */
+
+.contact{
+    background:#fff;
+}
+
+.contact-form{
+    max-width:700px;
+    margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:5px;
+}
+
+.contact-form button{
+    border:none;
+    cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+    background:#111;
+    color:#ccc;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:40px;
+}
+
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.stats-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+nav{
+    display:none;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<footer>
+
+<div class="container">
+
+<h3 style="color:white;margin-bottom:15px;">
+PT Chevron Pacific Indonesia
+</h3>
+
+<p>
+📍 Persero Batam Pt., Batu Merah,
+    Kec. Batu Ampar,Kota Batam, 
+    Kepulauan Riau 29444
+</p>
+
+<p>
+📧 info@chevronpacific.co.id
+</p>
+
+<p>
+📱 WhatsApp:
+<a href="https://wa.me/6285121973663" style="color:#fff;">
++62 851-2197-3663
+</a>
+</p>
+
+<br>
+
+<p>
+© 2026 PT Chevron Pacific Indonesia.
+All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+ 
+<header>
+<div class="container">
+<div class="navbar">
+
+<div class="logo">
+<img src="images/pertamina.png" alt="Pertamina">
+<img src="images/chevron.png" alt="Chevron">
+
+<h3>PT Chevron Pacific Indonesia</h3>
+<small>Energy & Industrial Solutions</small>
+
+<br><br>
+
+<img src="logo-partner.png"
+     alt="Pertamina dan Chevron"
+     style="width:500px; max-width:100%;">
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">Tentang</a></li>
+<li><a href="#services">Layanan</a></li>
+<li><a href="#contact">Kontak</a></li>
+</ul>
+</nav>
+
+</div>
+</div>
+</header>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">Tentang</a></li>
+<li><a href="#services">Layanan</a></li>
+<li><a href="#contact">Kontak</a></li>
+</ul>
+</nav>
+
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="container">
+
+<div class="hero-content">
+<h1>Energi Untuk Masa Depan Indonesia</h1>
+
+<p>
+Menyediakan solusi energi, minyak, gas,
+engineering dan teknologi industri dengan
+standar keselamatan serta kualitas terbaik.
+</p>
+
+<a href="#about" class="btn">
+Pelajari Lebih Lanjut
+</a>
+</div>
+
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="container">
+
+<div class="section-title">
+<h2>Tentang Kami</h2>
+</div>
+
+<div class="about-grid">
+
+<img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=1200">
+
+<div>
+<h3>PT Chevron Pacific Indonesia</h3>
+
+<p>
+Perusahaan yang bergerak di sektor energi,
+minyak dan gas dengan fokus pada inovasi,
+keselamatan kerja serta keberlanjutan
+operasional industri.
+</p>
+
+<br>
+
+<p>
+Kami berkomitmen mendukung kebutuhan energi
+Indonesia melalui teknologi modern dan
+pengembangan sumber daya manusia yang unggul.
+</p>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<div class="section-title">
+<h2>Layanan Kami</h2>
+</div>
+
+<div class="services-grid">
+
+<div class="service">
+<h3>Oil & Gas</h3>
+<p>
+Eksplorasi, produksi dan pengelolaan energi migas.
+</p>
+</div>
+
+<div class="service">
+<h3>Engineering</h3>
+<p>
+Solusi teknik dan desain industri berstandar internasional.
+</p>
+</div>
+
+<div class="service">
+<h3>Industrial Technology</h3>
+<p>
+Implementasi teknologi untuk meningkatkan efisiensi operasional.
+</p>
+</div>
+
+<div class="service">
+<h3>Energy Solutions</h3>
+<p>
+Pengembangan solusi energi berkelanjutan.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="stats">
+
+<div class="container">
+
+<div class="stats-grid">
+
+<div>
+<h3>60+</h3>
+<p>Tahun Pengalaman</p>
+</div>
+
+<div>
+<h3>500+</h3>
+<p>Profesional</p>
+</div>
+
+<div>
+<h3>100+</h3>
+<p>Proyek Industri</p>
+</div>
+
+<div>
+<h3>24/7</h3>
+<p>Support</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Hubungi Kami</h2>
+</div>
+
+<div style="text-align:center;margin-bottom:30px;">
+    <p><strong>WhatsApp:</strong></p>
+    <p>
+        <a href="https://wa.me/6285121973663" target="_blank">
+            +62 851-2197-3663
+        </a>
+    </p>
+
+    <br>
+
+    <p><strong>Email:</strong></p>
+    <p>
+        <a href="mailto:info@chevronpacific.co.id">
+            info@chevronpacific.co.id
+        </a>
+    </p>
+
+    <br>
+
+    <p>
+<strong>Alamat Kantor:</strong><br>
+Persero Batam Pt.<br>
+Batu Merah, Kec. Batu Ampar<br>
+Kota Batam, Kepulauan Riau 29444<br>
+Indonesia
+    </p>
+
+    <br>
+
+    <a href="https://www.google.com/maps/search/?api=1&query=Persero+Batam+Pt,+Batu+Merah,+Batu+Ampar,+Batam"
+   target="_blank"
+   class="btn">
+   📍 Buka di Google Maps
+    </a>
+</div>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Nama Lengkap">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Subjek">
+
+<textarea rows="6" placeholder="Pesan"></textarea>
+
+<button class="btn">
+Kirim Pesan
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 PT Chevron Pacific Indonesia.
+All Rights Reserved.
+</footer>
+
+</body>
+  </html>
