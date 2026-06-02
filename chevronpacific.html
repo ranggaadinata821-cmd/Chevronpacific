@@ -61,100 +61,43 @@
             z-index:1000;
         }
 
-        .logo{
-            display:flex;
-            align-items:center;
-            gap:15px;
-            color:#fff;
-            font-weight:700;
-        }
+        .logo-container{
+    text-align:center;
+}
 
-        .logo img{
-            height:60px;
-            background:#fff;
-            padding:6px;
-            border-radius:12px;
-        }
+.logo-container img{
+    width:350px;
+    max-width:90%;
+    height:auto;
+}
 
-        nav ul{
-            display:flex;
-            list-style:none;
-            gap:25px;
-        }
+.logo-container h1{
+    color:#0070c0;
+    margin-top:20px;
+}
 
-        nav a{
-            color:#fff;
-            text-decoration:none;
-            font-weight:500;
-        }
+    
+/* MENU */
 
-        nav a:hover{
-            opacity:.8;
-        }
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:30px;
+}
 
-        .hero{
-            min-height:100vh;
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    transition:all .3s ease;
+}
 
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            text-align:center;
+nav ul li a:hover{
+    color:#d7ffe5;
+}
 
-            padding:120px 8% 80px;
-
-            background:
-            linear-gradient(rgba(0,0,0,.55),
-            rgba(0,0,0,.55)),
-            url('https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=2000&q=80');
-
-            background-size:cover;
-            background-position:center;
-
-            color:#fff;
-        }
-
-        .hero-content{
-            max-width:800px;
-        }
-
-        .hero-logo{
-            width:180px;
-            margin-bottom:25px;
-            background:#fff;
-            padding:10px;
-            border-radius:15px;
-        }
-
-        h1{
-            font-size:58px;
-            margin-bottom:20px;
-        }
-
-        p{
-            margin-bottom:20px;
-        }
-
-        .btn{
-            display:inline-block;
-
-            padding:14px 28px;
-
-            background:#25D366;
-            color:#fff;
-
-            text-decoration:none;
-            font-weight:600;
-
-            border-radius:50px;
-        }
-
-        .btn:hover{
-            opacity:.9;
-        }
-
-        @media(max-width:768px){
-
-
+    
 /* SECTION */
 
 section{
@@ -281,7 +224,7 @@ color:white;
 }
 
 /* CONTACT */
-
+        
 .contact{
 display:grid;
 grid-template-columns:1fr 1fr;
@@ -320,92 +263,56 @@ border:1px solid #ddd;
 border-radius:10px;
 outline:none;
 }
-
-.contact-form button{
-background:#003366;
-color:white;
-border:none;
-padding:15px;
-border-radius:10px;
-cursor:pointer;
-font-weight:600;
-}
-
-/* FOOTER */
-
-footer{<img src="26339.png" alt="Chevron Logo" height="60">
-background:#001c38;
-padding:30px;
-text-align:center;
-color:white;
-}
+        
 
 /* RESPONSIVE */
 
-@media(max-width:900px){
+<section id="contact">
 
-.hero-content h1{
-font-size:45px;
-}
+    <div class="section-title">
+        <h2>Kontak Kami</h2>
+    </div>
 
-.about,
-.contact{
-grid-template-columns:1fr;
-}
+    <div class="contact">
 
-.stats-grid{
-grid-template-columns:repeat(2,1fr);
-}
+        <div class="contact-info">
 
-nav ul{
-display:none;
-}
+            <h3>Informasi Kontak</h3>
 
-}
+            <p><strong>Alamat:</strong><br>
+            Batu Merah, Batam, Kepulauan Riau</p>
 
-</style>
-</head>
-<body>
+            <p><strong>Email:</strong><br>
+            chevron.corporation.idn@gmail.com</p>
 
-<header>
+            <p><strong>WhatsApp:</strong><br>
+            +62 851-2197-3663</p>
 
-<div class="logo">
-PT Chevron Pacific Indonesia
-</div>
+        </div>
 
-<nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#about">Tentang</a></li>
-<li><a href="#services">Layanan</a></li>
-<li><a href="#projects">Proyek</a></li>
-<li><a href="#contact">Kontak</a></li>
-</ul>
-</nav>
+        <div class="contact-form">
 
-</header>
+            <h3>Kirim Pesan</h3>
 
-<!-- HERO -->
+            <form>
 
-<section class="hero">
+                <input type="text" placeholder="Nama Lengkap" required>
 
-<div class="hero-content">
+                <input type="email" placeholder="Email" required>
 
-<h1>
-Mendorong Masa Depan Energi Indonesia
-</h1>
+                <input type="text" placeholder="Subjek">
 
-<p>
-PT Chevron Pacific Indonesia berkomitmen menghadirkan
-solusi energi yang aman, efisien, inovatif, dan
-berkelanjutan untuk mendukung pertumbuhan ekonomi nasional.
-</p>
+                <textarea placeholder="Tulis pesan Anda"></textarea>
 
-<a href="#about" class="btn">
-Jelajahi Perusahaan
-</a>
+                <button type="submit">
+                    Kirim Pesan
+                </button>
 
-</div>
+            </form>
+
+        </div>
+
+    </div>
 
 </section>
 
